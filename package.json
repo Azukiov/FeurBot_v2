@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "discord.js": "^14.7.1"
-  }
+  },
+  "name": "feurbot_v2",
+  "description": "Feur Bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsAzukio/FeurBot_v2.git"
+  },
+  "keywords": [
+    "Feur"
+  ],
+  "author": "ItsAzukio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsAzukio/FeurBot_v2/issues"
+  },
+  "homepage": "https://github.com/ItsAzukio/FeurBot_v2#readme"
 }
