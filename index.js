@@ -42,7 +42,7 @@ const log = l => { console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${l}
 client.on('ready', async (client) => {
     try {
         await rest.put(
-            Routes.applicationsCommands(client.user.id),
+            Routes.applicationCommands(client.user.id),
             { body: commands },
         );
     } catch (error) {
@@ -81,6 +81,8 @@ process.on("uncaughtException", error => {
 process.on("uncaughtExceptionMonitor", error => {
     log(`Uncaught exception monitor: ${error}`);
 });
+
+
 
 
 // login discord
