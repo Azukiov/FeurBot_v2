@@ -81,8 +81,9 @@ process.on("uncaughtException", error => {
 process.on("uncaughtExceptionMonitor", error => {
     log(`Uncaught exception monitor: ${error}`);
 });
-
-
+process.on("warning", error => {
+    log(`Warning: ${error}`);
+});
 
 
 // login discord
