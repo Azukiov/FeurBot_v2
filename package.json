@@ -1,12 +1,15 @@
 {
   "dependencies": {
-    "discord.js": "^14.7.1"
+    "@discordjs/rest": "^1.5.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4"
   },
   "name": "feurbot_v2",
   "description": "Feur Bot",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "start": "node ."
   },
